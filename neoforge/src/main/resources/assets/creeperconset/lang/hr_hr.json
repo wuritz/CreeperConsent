@@ -1,0 +1,11 @@
+{
+  "creeperconset.screen.title": "Kriper traži pristanak",
+  "creeperconset.screen.message": "Kriper te kulturno pita da li sme da eksplodira",
+  "creeperconset.button.accept": "Ajde brate, rokaj",
+  "creeperconset.button.deny": "Ma beži bre, danas ne",
+  "creeperconset.log.request_sent": "Poslat zahtev za pristanak igraču %s za kripera %s",
+  "creeperconset.log.consent_granted": "Igrač %s je dao dozvolu - kriper slobodno puca",
+  "creeperconset.log.consent_denied": "Igrač %s je odbio - kriper ostao razočaran",
+  "creeperconset.log.creeper_not_found": "Kriper %s više ne postoji (verovatno se samoubio od tuge)",
+  "creeperconset.log.duplicate_request": "Već postoji zahtev za kripera %s, ignoriše se duplikat"
+}

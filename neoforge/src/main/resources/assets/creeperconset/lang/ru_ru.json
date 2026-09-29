@@ -1,0 +1,11 @@
+{
+  "creeperconset.screen.title": "Запрос согласия крипера",
+  "creeperconset.screen.message": "Крипер просит твоего разрешения взорваться (рядом с тобой)",
+  "creeperconset.button.accept": "Конечно, давай",
+  "creeperconset.button.deny": "Не, не сегодня",
+  "creeperconset.log.request_sent": "Отправлен запрос согласия игроку %s от крипера %s",
+  "creeperconset.log.consent_granted": "Игрок %s дал согласие на взрыв",
+  "creeperconset.log.consent_denied": "Игрок %s отказал криперу",
+  "creeperconset.log.creeper_not_found": "Крипер %s больше не существует",
+  "creeperconset.log.duplicate_request": "Клиент уже обрабатывает крипера %s, повторный запрос проигнорирован"
+}

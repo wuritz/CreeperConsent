@@ -1,0 +1,12 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+version = project.common_version
+base.archivesName = project.archives_base_name + '-common'
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+
+    compileOnly "net.fabricmc:fabric-loader:${project.loader_version}"
+}

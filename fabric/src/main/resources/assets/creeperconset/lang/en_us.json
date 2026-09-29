@@ -1,0 +1,11 @@
+{
+  "creeperconset.screen.title": "Creeper Consent Request",
+  "creeperconset.screen.message": "A creeper has asked for your permission to explode (on you)",
+  "creeperconset.button.accept": "Sure, let's go",
+  "creeperconset.button.deny": "Nah, not today",
+  "creeperconset.log.request_sent": "Sent consent request to player %s for creeper %s",
+  "creeperconset.log.consent_granted": "Player %s granted consent for explosion",
+  "creeperconset.log.consent_denied": "Player %s denied consent",
+  "creeperconset.log.creeper_not_found": "Creeper %s no longer exists",
+  "creeperconset.log.duplicate_request": "Client already handling creeper %s, ignoring duplicate request"
+}

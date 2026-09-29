@@ -1,0 +1,41 @@
+apply plugin: 'base'
+
+subprojects {
+    apply plugin: 'java-library'
+
+    group = project.maven_group
+
+    tasks.withType(JavaCompile).configureEach {
+        it.options.release = 25
+    }
+
+    java {
+        withSourcesJar()
+
+        sourceCompatibility = JavaVersion.VERSION_25
+        targetCompatibility = JavaVersion.VERSION_25
+    }
+}
+
+task release {
+    dependsOn subprojects*.build
+
+    doLast {
+        file("Releases").listFiles().each { f ->
+            if (f.name != ".gitkeep") f.delete()
+        }
+
+        copy {
+            from "fabric/build/libs/creeperconset-fabric-${project.mod_version}.jar"
+            from "neoforge/build/libs/creeperconset-neoforge-${project.mod_version}.jar"
+            into "Releases"
+        }
+
+        delete fileTree("common/build/libs").include("*.jar")
+        delete fileTree("fabric/build/libs").include("*-sources.jar")
+        delete fileTree("neoforge/build/libs").include("*-sources.jar")
+    }
+}
+
+build.dependsOn release
+build.mustRunAfter subprojects*.build

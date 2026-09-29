@@ -1,0 +1,11 @@
+{
+  "creeperconset.screen.title": "El creeper necesita tu consentimiento",
+  "creeperconset.screen.message": "El creeper te pregunta si puede explotar (sobre ti)",
+  "creeperconset.button.accept": "Claro, con gusto",
+  "creeperconset.button.deny": "No hoy, estoy ocupado",
+  "creeperconset.log.request_sent": "Se envió una solicitud de consentimiento al jugador %s por el creeper %s",
+  "creeperconset.log.consent_granted": "El jugador %s acepto que lo explotara el creeper",
+  "creeperconset.log.consent_denied": "El jugador %s rechazo la petición del — pobre creeper",
+  "creeperconset.log.creeper_not_found": "El creeper %s ya no se encuentra con nosotros (RIP)",
+  "creeperconset.log.duplicate_request": "Ya se envio una petición %s, ignorando el duplicado de petición"
+}

@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "Mulan PubL v2"
+
+[[mods]]
+modId = "creeperconset"
+version = "${version}"
+displayName = "CreeperConsent"
+logoFile = "assets/creeperconset/icon.png"
+credits = "Viktor Milivojević"
+authors = "Viktor Milivojević"
+description = '''
+CreeperConsent - Get creeper permission before they explode!
+'''
+
+[[mixins]]
+config = "creeperconset.neoforge.mixins.json"
+
+[[mixins]]
+config = "creeperconset.common.mixins.json"
+
+[[dependencies.creeperconset]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.1.2.15-beta,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.creeperconset]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.1.2,26.2)"
+ordering = "NONE"
+side = "BOTH"
