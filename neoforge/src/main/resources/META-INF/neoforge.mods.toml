@@ -3,10 +3,10 @@ loaderVersion = "[4,)"
 license = "Mulan PubL v2"
 
 [[mods]]
-modId = "creeperconset"
+modId = "creeperconsent"
 version = "${version}"
 displayName = "CreeperConsent"
-logoFile = "assets/creeperconset/icon.png"
+logoFile = "../assets/creeperconsent/icon.png"
 credits = "Viktor Milivojević"
 authors = "Viktor Milivojević"
 description = '''
@@ -14,19 +14,19 @@ CreeperConsent - Get creeper permission before they explode!
 '''
 
 [[mixins]]
-config = "creeperconset.neoforge.mixins.json"
+config = "creeperconsent.neoforge.mixins.json"
 
 [[mixins]]
-config = "creeperconset.common.mixins.json"
+config = "creeperconsent.common.mixins.json"
 
-[[dependencies.creeperconset]]
+[[dependencies.creeperconsent]]
 modId = "neoforge"
 type = "required"
 versionRange = "[26.1.2.15-beta,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.creeperconset]]
+[[dependencies.creeperconsent]]
 modId = "minecraft"
 type = "required"
 versionRange = "[26.1.2,26.2)"

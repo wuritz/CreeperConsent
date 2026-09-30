@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "creeperconset",
+  "id": "creeperconsent",
   "version": "${version}",
   "name": "CreeperConsent",
   "description": "Creepers will now ask for your consent before exploding!",
@@ -8,19 +8,19 @@
     "Sectorfive"
   ],
   "license": "MulanPubL-2.0",
-  "icon": "assets/creeperconset/icon.png",
+  "icon": "assets/creeperconsent/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.creeperconset.fabric.CreeperConsentModClient"
+      "com.creeperconsent.fabric.CreeperConsentModClient"
     ],
     "main": [
-      "com.creeperconset.fabric.CreeperConsentMod"
+      "com.creeperconsent.fabric.CreeperConsentMod"
     ]
   },
 "mixins": [
-    "creeperconset.mixins.json",
-    "creeperconset.common.mixins.json"
+  "creeperconsent.mixins.json",
+  "creeperconsent.common.mixins.json"
 ],
   "depends": {
     "fabricloader": ">=0.19.3",

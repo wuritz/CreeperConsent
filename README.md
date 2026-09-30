@@ -1,6 +1,27 @@
-# CreeperConsent: Original
+# Creeper Consent: Original
 
-The original Creeper Consent mod, made by: Sectorfive.
+**The original Creeper Consent mod, made by Sectorfive.** <br>
+
+---
+
+Check out [Better Creeper Consent](https://github.com/wuritz/better-creeper-consent), with hand-drawn creeper personalities, chat messages and more added features!
+
+<div align="center">
+    <a href="https://github.com/wuritz/better-creeper-consent" target="_blank">
+        <img src="assets/bccbanner.png" width="750">
+    </a>
+</div>
+
+## The future of this mod
+The original creator, Sectorfive has abandoned this project, and as of now I'll be taking care of the mod, for the foreseeable future.
+
+I don't really plan on adding new features; my main and only goal is to preserve and keep updating this mod to the newer versions.
+
+<br>
+
+### Everything below this line has been copied from the original README
+
+---
 
 ## About
 

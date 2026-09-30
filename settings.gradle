@@ -13,7 +13,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'creeperconset'
+rootProject.name = 'creeperconsent'
 
 include('common')
 include('fabric')
