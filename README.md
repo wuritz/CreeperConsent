@@ -4,8 +4,6 @@
 
 ---
 
-Check out [Better Creeper Consent](https://github.com/wuritz/better-creeper-consent), with hand-drawn creeper personalities, chat messages and more added features!
-
 <div align="center">
     <a href="https://github.com/wuritz/better-creeper-consent" target="_blank">
         <img src="assets/bccbanner.png" width="750">
