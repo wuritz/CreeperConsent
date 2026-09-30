@@ -13,7 +13,7 @@ java {
 }
 
 dependencies {
-    implementation project(':common')
+    compileOnly project(':common')
     implementation "net.neoforged:neoforge:${project.neoforge_version}"
 }
 
@@ -38,4 +38,8 @@ build.doLast {
         from "build/libs/${base.archivesName.get()}-${version}.jar"
         into rootProject.file("Releases")
     }
+}
+
+tasks.named('compileJava', JavaCompile) {
+    source(project(":common").sourceSets.main.allSource)
 }
