@@ -5,7 +5,7 @@ license = "Mulan PubL v2"
 [[mods]]
 modId = "creeperconsent"
 version = "${version}"
-displayName = "CreeperConsent"
+displayName = "Creeper Consent"
 logoFile = "../assets/creeperconsent/icon.png"
 credits = "Viktor Milivojević"
 authors = "Viktor Milivojević"

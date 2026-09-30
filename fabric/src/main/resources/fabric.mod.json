@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "creeperconsent",
   "version": "${version}",
-  "name": "CreeperConsent",
+  "name": "Creeper Consent",
   "description": "Creepers will now ask for your consent before exploding!",
   "authors": [
     "Sectorfive"
